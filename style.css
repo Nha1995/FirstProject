@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 1440px;
     margin: 0 auto;
+    margin: 21px 0 0 121px;
 }
 
 .Nmain {
@@ -13,9 +14,80 @@ body {
 .firstlogo {
     width: 112px;
     height: 66px;
-    margin: 21px 0 0 121px;
 }
 
 .header {
     
+}
+
+.Kform1 {
+    font-size: 52px;
+    width: 667px;
+    height: 93px;
+    font-weight: 700;
+}
+
+.kkontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kmenu {
+    font-size: 25px;
+    color: #1E4681;
+    font-weight: 700;
+}
+
+.ktext {
+    width: 271px;
+    height: 109px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Kform2 {
+    font-size: 52px;
+    width: 667px;
+    height: 93px;
+    font-weight: 700;
+}
+
+.kelement {
+    font-size: 24px;
+    width: 662px;
+    height: 380px;
+    font-weight: 400;
+}
+
+.kjedai {
+    width: 274px;
+    height: 160px;   
+}
+
+.kimgjed {
+    position: relative;
+    bottom: 600px;
+    left: 900px;
+    z-index: 10;
+}
+
+.kdino {
+    position: relative;
+    bottom: 480px;
+    left: 900px;
+
+}
+
+.kellipse1 {
+    position: relative;
+    bottom: 806px;
+    left: 908px;
+    z-index: 0;
+}
+
+.kellipse2 {
+    position: relative;
+    bottom: 806px;
+    left: 938px;
+    z-index: 0;
 }
