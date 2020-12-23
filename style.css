@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 1440px;
     margin: 0 auto;
+    
 }
 
 .Nmain {
@@ -19,3 +20,193 @@ body {
 .header {
     
 }
+
+/*Курс прошло уже 1616 человек*/
+
+.Lmain-course-passed {
+    background-color: #EFEFEF;
+    height: 780px;
+    margin-bottom: 0;
+}
+
+.Lmain-course-passed-header {
+    font-size: 55px;
+    padding-top: 91px;
+    padding-left: 122px; 
+}
+
+.Lmain-cloud {
+    width: 791px;
+    height: 451px;
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-left: 122px;
+} 
+
+.Lmain-cloud p {
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-right: 46px;
+    font-size: 20px;
+}
+
+.Lmain-extra {
+    display: flex;
+}
+
+.Lmain-extra-avatar img {
+    width: 190 px;
+    height: 169px;
+    margin-left: 45px;
+    
+}
+
+.Lmain-author img {
+    width: 32px;
+    height: 31px;
+   margin-left: 40px;
+}
+
+.Lmain-author p {
+    font-size: 30px;
+    font-weight: bold;    
+}
+
+
+/*Начало курса — 8 сентября*/
+
+.Lmain-course-start {
+    height: 780px;
+    background: #9DC9C8;
+    padding-top: 20px;
+}
+
+.Lmain-text-extra {
+    display: flex;
+    margin-left: 122px;
+}
+
+.Lmain-course-start h2 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.Lmain-course-header {
+    padding-left: 122px;
+}
+
+.course-start-text {
+    font-size: 25px;
+    margin-left: 122px;
+    margin-bottom: 0;
+}
+
+.course-start-text1 {
+    font-size: 25px;
+}
+
+.course-start-text2 {
+    font-size: 18px;
+}
+
+.Lmain-cost {
+    font-size: 80px;
+    padding-left: 122px;
+    margin-top: 0;
+}
+
+.any-type {
+    width: 294px;
+    height: 115px;
+    margin-right: 60px;
+}
+
+.come-now {
+    width: 294px;
+    height: 115px;    
+}
+
+/*Footer.footer-socials*/
+
+footer {
+    background-color: black;
+    height: 390px;
+    font-size: 25px;
+    display: flex;
+    color: white;
+}
+
+.footer-logo img {
+    width: 115px;
+    height: 68px;
+    margin-top: 50px;
+    margin-left: 122px;
+    margin-bottom: 30px;
+    margin-right: 656px;
+}
+
+.footer-social-items {
+    margin-left: 122px;
+    
+}
+
+.insta {
+    width: 33px;
+    height: 33px;
+    margin-left: 122px;
+    margin-right: 18px;
+}
+
+.fb {
+    width: 32px;
+    height: 32px;
+    margin-right: 21px;
+}
+
+.vk {
+    width: 35px;
+    height: 35px;
+    margin-right: 25px;;
+}
+
+.wa {
+    width: 34px;
+    height: 34px;
+}
+
+.footer-extra {
+    font-size: 18px;
+    margin-left: 122px;
+    margin-top: 146px;
+}
+
+/*Footer.footer-contacts*/
+
+.footer-phone img {
+    width: 27px;
+    height: 27px;
+    margin-right: 22px;
+}
+
+.footer-mail img {
+    width: 27px;
+    height: 18px;
+    margin-right: 22px;
+}
+
+.footer-contacts {
+    margin-top: 50px;
+}
+
+.footer-phone {
+    display: flex;
+    align-items: center;
+}
+
+.footer-mail {
+    display: flex;
+    align-items: center;
+}
+
+/*Конец*/
