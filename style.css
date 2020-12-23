@@ -1,24 +1,301 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
-    width: 1440px;
-    margin: 0 auto;
-    
+    font-family: 'Roboto', sans-serif;    
+    margin:1.5% auto 0 auto;
 }
 
-.Nmain {
-    background-color: blue;
+.abswidth {
+    width: 1440px;
+    margin: 1.5% auto auto 8%;
+}
+
+.pheader {
+    margin: 5px 0 10px 8px;
+}
+
+.Nmain {    
+    width: 1440px;
+    margin: 1.5% auto auto 8%;
+}
+
+.blocks {
+    display: flex;
+    margin-left:30px;
+}
+
+.blocks img {
+    width: 22px;
+    height: 22px;
 }
 
 .firstlogo {
     width: 112px;
-    height: 66px;
-    margin: 21px 0 0 121px;
+    height: 66px;    
+}
+
+.headfooter {
+    display: flex;
+    padding-top: 96px;
 }
 
 .header {
+    margin: 0 auto;
+}
+
+.blocks1 {
+    margin: 70px 0 0 125px;
+    color: #000000;
+}
+
+.blocks:first-child {
+    margin-left: 0;
+}
+
+.kaksmotret {
+    display: flex;
+    justify-content: flex-start;    
+}
+
+.kaksmotret h1 {
+    display: block;
+    font-size: 80px;
+    font-weight: 700;
+    width: 628px;
+    margin: 0;
+}
+
+.kaksmotret p {
+    font-size: 20px;
+    font-weight: 400;
+    width: 414px;
+}
+
+.kaksmotret img {
+    width: 304px;
+    height: 356px;
+    margin-left: 200px;
+}
+
+.luja {
+    position: absolute;
+    background-color: #EFEFEF;
+    width: 274px;
+    height: 41px;
+    border-radius: 100%;
+    margin: 335px 0 0 850px;
+    z-index: -1;
+}
+
+.luja1 {
+    position: absolute;
+    background-color: #EFEFEF;
+    width: 366px;
+    height: 59px;
+    border-radius: 100%;
+    margin: 450px 0 0 845px;
+    z-index: -1;
+}
+
+.luja2 {
+    position: absolute;
+    background-color: #EFEFEF;
+    width: 189px;
+    height: 32px;
+    border-radius: 100%;
+    margin: 188px 0 0 30px;
+    z-index: -1;
+}
+
+.bluetable {
+    width: 483.63px;
+    height: 200px;
+    background-color: #1E4681;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+    line-height: 32.5px;
+    border-radius: 5%;
+    padding: 21px 30px 15px 30px;
+    box-sizing: border-box;
+    margin: 100px 0 100px 323px;
+    transform: rotate(-4deg);
+}
+
+.bluetable p {
+    line-height: 130%;
+    font-size: 20px;
+    margin: 10px 0 20px 0;
+    text-align: right;
+}
+
+.Okurse {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.Okurse h2 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.Okurse p {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.Okurse img {
+    position: relative;
+    width: 314px;
+    height: 315px;
+    margin: 138px 0 0 220px  ;    
+}
+
+.final {
+    display: flex;
+    justify-content: flex-start;
+    width: 1100px;
+    margin-bottom: 200px;
+}
+.final img {
+    width: 232px;
+    height: 203px;
+}
+
+.final h3 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.final p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.final-mobile {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media(max-width: 834px) and (min-width: 395px) {
+    .abswidth {
+        width: 834px;
+    }
+
+    .pheader {
+        margin: 2px 0 6px 3px;
+    }
     
+    .Nmain {    
+        width: 834px;
+    }
+    
+    .firstlogo {
+        width: 64.87px;
+        height:38.23px;
+    }
+
+    .blocks img {
+        width: 12.5px;
+        height: 12.5px;
+    }
+
+    .blocks p {
+        font-size: 12px;;
+    }
+
+    .kaksmotret h1 {
+        font-size: 46px;
+    }
+
+    .kaksmotret p {
+        font-size: 12px;
+    }
+
+    .kaksmotret img {
+        width: 176px;
+        height: 206px;
+        margin-left: 0;
+    }
+
+    .kaksmotret div :first-child {
+        width: 485px;
+    }
+
+    .bluetable {
+        width: 280px;
+        height: 116px;
+        margin: 70px 0 100px 165px;
+
+    }
+
+    .luja {
+        width: 159px;
+        height: 24px;
+        margin: 195px 0 0 500px;
+    }
+
+    .Okurse h2 {
+        font-size: 32px;
+    }
+
+    .Okurse p {
+        font-size: 14px;
+    }
+
+    .Okurse img {
+        width: 182px;
+        height: 182px;
+        margin: 90px 0 0 120px  ;
+    }
+
+    .final img {
+        width: 134px;
+        height: 117.5px;
+    }
+
+    .luja1 {
+        width: 212px;
+        height: 34px;
+        margin: 272px 0 0 485px;
+    }
+
+    .final h3 {
+        font-size: 15px;
+    }
+    
+    .final p {
+        font-size: 11px;
+    }
+
+    .final {
+        width: 800px;
+        margin-bottom: 100px;
+    }
+
+    .blocks1 {
+        margin: 20px 0 0 85px;
+    }
+
+    .luja2 {
+        width: 109.5px;
+        height: 18.5px;
+        margin: 108px 0 0 15px;
+    }
+}
+
+@media(max-width: 394px) {
+    .abswidth {
+        width: 394px;
+    }
+
+    .pheader {
+        margin: 1px 0 3px 1.5px;
+    }
+    
+<<<<<<< HEAD
 }
 
 /*Курс прошло уже 1616 человек*/
@@ -210,3 +487,140 @@ footer {
 }
 
 /*Конец*/
+=======
+    .Nmain {    
+        width: 394px;
+    }
+    
+    .firstlogo {
+        width: 52px;
+        height:31px;
+    }
+
+    .blocks img {
+        width: 10.25px;
+        height: 10.25px;
+    }
+
+    .blocks p {
+        font-size: 10px;;
+    }
+
+    .kaksmotret h1 {
+        font-size: 37px;
+    }
+
+    .kaksmotret p {
+        font-size: 10px;
+    }
+
+    .kaksmotret {
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .kaksmotret img {
+        width: 141.5px;
+        height: 166px;
+        margin: 0 0 0 175px;
+    }
+
+    .kaksmotret-text {
+        width: 250px;
+    }
+
+    .bluetable {
+        width: 225.3px;
+        height: 93.2px;
+        margin: 35px 0 100px 10px;
+        font-size: 11px;
+        line-height: 12px;
+        padding: 7px 6px 3px 11px;
+    }
+
+    .bluetable p {
+        font-size: 11px;
+    }
+
+    .luja {
+        width: 127.7px;
+        height: 19px;
+        margin: 290px 0 0 194px;
+    }
+
+    .Okurse {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .Okurse h2 {
+        font-size: 26px;
+    }
+
+    .Okurse p {
+        font-size: 12px;
+        width: 310px;
+    }
+
+    .clear {
+        display: none;
+    }
+
+    .Okurse img {
+        width: 146.3px;
+        height: 146.8px;
+        margin: 0 0 0 80px ;
+    }
+
+    .luja1 {
+        width: 170.5px;
+        height: 27.5px;
+        margin: -18px 0 0 63px;
+    }
+
+    .final img {
+        width: 108px;
+        height: 94.6px;
+    }
+
+    .pictr {
+        margin: 58px 0 0 196px;
+        position: absolute;
+    }
+
+    .final h3 {
+        font-size: 12px;
+    }
+    
+    .final p {
+        font-size: 10px;
+    }
+
+    .final {
+        width: 394px;
+        margin-bottom: 50px;
+    }
+
+    .blocks1 {
+        margin: 0;
+        width: 120px;
+    }
+
+    .final-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        width: 280px;
+    }
+
+    .margfinal {
+        padding-left: 5px;
+        width: 105px;
+    }
+
+    .luja2 {
+        width: 109.5px;
+        height: 18.5px;
+        margin: 142px 0 0 199px;
+    }
+}
+>>>>>>> 524be36b46d2c75e883ae0ae4891880ef30bcf42
