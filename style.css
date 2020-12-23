@@ -294,11 +294,13 @@ body {
     .pheader {
         margin: 1px 0 3px 1.5px;
     }
-    
-<<<<<<< HEAD
-}
 
 /*Курс прошло уже 1616 человек*/
+
+.Lmain {
+    width: 1440px;
+    margin: 0 auto;
+}
 
 .Lmain-course-passed {
     background-color: #EFEFEF;
@@ -487,7 +489,6 @@ footer {
 }
 
 /*Конец*/
-=======
     .Nmain {    
         width: 394px;
     }
