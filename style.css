@@ -1,533 +1,320 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;    
-    margin:1.5% auto 0 auto;
+    font-family: 'Roboto', sans-serif;  
+    display: flex;  
+    justify-content: space-around;
+    margin-top: 1.5%;
 }
 
-.abswidth {
-    width: 1440px;
-    margin: 1.5% auto auto 8%;
+.mainContainer {
+    max-width: 1440px;
+    min-width: 1280px;
+    margin: 0 auto;
 }
 
-.pheader {
-    margin: 5px 0 10px 8px;
+header {
+    width: 88%;
+    margin: 0 auto;
 }
 
-.Nmain {    
-    width: 1440px;
-    margin: 1.5% auto auto 8%;
-}
-
-.blocks {
-    display: flex;
-    margin-left:30px;
-}
-
-.blocks img {
-    width: 22px;
-    height: 22px;
-}
-
-.firstlogo {
+.synchronization-logo {
     width: 112px;
     height: 66px;
 }
 
-.headfooter {
+.head-info {
     display: flex;
-    padding-top: 96px;
+    padding-top: 100px;
 }
 
-.header {
-    margin: 0 auto;
+.head-info p {
+    font-size: 20px;
+    margin: 0;
+    padding: 5px 0 0 8px;
 }
 
-.blocks1 {
-    margin: 70px 0 0 125px;
-    color: #000000;
-}
-
-.blocks:first-child {
-    margin-left: 0;
-}
-
-.kaksmotret {
+.head-info__block {
     display: flex;
-    justify-content: flex-start;    
+    padding-left:25px;
 }
 
-.kaksmotret h1 {
+.head-info__block img {
+    width: 22px;
+    height: 22px;
+}
+
+.head-info__block:first-child {
+    padding-left: 0;
+}
+
+.howToWatch {
+    width: 88%;
+    margin: 0 auto 70px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.howToWatch-text h1 {
+    font-family: 'Roboto Slab', serif;
     display: block;
     font-size: 80px;
     font-weight: 700;
-    width: 628px;
     margin: 0;
+    line-height: 81.11px;
+    padding-top: 13px;
+    width: 80%;
 }
 
-.kaksmotret p {
+.howToWatch-text p {
+    margin: 0;
+    padding-top: 20px;
     font-size: 20px;
     font-weight: 400;
     width: 414px;
 }
 
-.kaksmotret img {
-    width: 304px;
-    height: 356px;
-    margin-left: 200px;
+.howToWatch__picture {
+    padding-right: 120px;
 }
 
-.luja {
-    position: absolute;
+.howToWatch__picture img {
+    width: 304px;
+    height: 356px;
+}
+
+.howToWatch__puddle {
+    position: relative;
     background-color: #EFEFEF;
     width: 274px;
     height: 41px;
     border-radius: 100%;
-    margin: 335px 0 0 850px;
     z-index: -1;
-}
-
-.luja1 {
-    position: absolute;
-    background-color: #EFEFEF;
-    width: 366px;
-    height: 59px;
-    border-radius: 100%;
-    margin: 450px 0 0 845px;
-    z-index: -1;
-}
-
-.luja2 {
-    position: absolute;
-    background-color: #EFEFEF;
-    width: 189px;
-    height: 32px;
-    border-radius: 100%;
-    margin: 188px 0 0 30px;
-    z-index: -1;
+    left: 35px;
+    bottom: 25px;
 }
 
 .bluetable {
+    position: relative;
     width: 483.63px;
     height: 200px;
     background-color: #1E4681;
     font-weight: 400;
     font-size: 25px;
     color: #FFFFFF;
-    line-height: 32.5px;
     border-radius: 5%;
     padding: 21px 30px 15px 30px;
     box-sizing: border-box;
-    margin: 100px 0 100px 323px;
+    margin: 0 auto 156px auto;
     transform: rotate(-4deg);
+    right: 100px;
 }
 
 .bluetable p {
     line-height: 130%;
     font-size: 20px;
-    margin: 10px 0 20px 0;
+    padding-top: 10px;
+    margin: 0;
     text-align: right;
 }
 
-.Okurse {
+.about-course {
+    width: 88%;
+    margin: 0 auto 100px auto;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
 }
 
-.Okurse h2 {
+.about-course h2 {
+    font-family: 'Roboto Slab', serif;
+    margin: 0 0 45px 0;
     font-size: 55px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
-.Okurse p {
+.about-course p {
+    width: 78%;
     font-weight: 400;
     font-size: 24px;
+    line-height: 36px;
 }
 
-.Okurse img {
+.about-course__picture {
+    padding-left: 50px;
+}
+
+.about-course img {
     position: relative;
     width: 314px;
     height: 315px;
-    margin: 138px 0 0 220px  ;    
+    padding: 138px 0 0 0;  
+    margin-right: -60px;  
 }
 
-.final {
-    display: flex;
-    justify-content: flex-start;
-    width: 1100px;
-    margin-bottom: 200px;
+.about-course__puddle {
+    position: relative;
+    background-color: #EFEFEF;
+    width: 366px;
+    height: 59px;
+    border-radius: 100%;
+    z-index: -1;
+    bottom: 35px;
+    right: 23px;
 }
-.final img {
+
+.man-with-tablet-logo img {
     width: 232px;
     height: 203px;
+    margin-right: 40px;
 }
 
-.final h3 {
-    font-weight: 700;
+.schedule__puddle {
+    position: relative;
+    background-color: #EFEFEF;
+    width: 189px;
+    height: 32px;
+    border-radius: 100%;
+    z-index: -1;
+    bottom: 21px;
+    left: 34px;
+}
+
+.schedule {
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 178px;
+}
+
+.schedule h3 {
+    font-weight: 800;
     font-size: 25px;
 }
 
-.final p {
+.schedule p {
     font-size: 18px;
     font-weight: 400;
 }
 
-.final-mobile {
+.schedule__info {
     display: flex;
     justify-content: flex-start;
 }
 
-@media(max-width: 834px) and (min-width: 395px) {
-    .abswidth {
-        width: 834px;
-    }
-
-    .pheader {
-        margin: 2px 0 6px 3px;
-    }
-    
-    .Nmain {    
-        width: 834px;
-    }
-    
-    .firstlogo {
-        width: 64.87px;
-        height:38.23px;
-    }
-
-    .blocks img {
-        width: 12.5px;
-        height: 12.5px;
-    }
-
-    .blocks p {
-        font-size: 12px;;
-    }
-
-    .kaksmotret h1 {
-        font-size: 46px;
-    }
-
-    .kaksmotret p {
-        font-size: 12px;
-    }
-
-    .kaksmotret img {
-        width: 176px;
-        height: 206px;
-        margin-left: 0;
-    }
-
-    .kaksmotret div :first-child {
-        width: 485px;
-    }
-
-    .bluetable {
-        width: 280px;
-        height: 116px;
-        margin: 70px 0 100px 165px;
-
-    }
-
-    .luja {
-        width: 159px;
-        height: 24px;
-        margin: 195px 0 0 500px;
-    }
-
-    .Okurse h2 {
-        font-size: 32px;
-    }
-
-    .Okurse p {
-        font-size: 14px;
-    }
-
-    .Okurse img {
-        width: 182px;
-        height: 182px;
-        margin: 90px 0 0 120px  ;
-    }
-
-    .final img {
-        width: 134px;
-        height: 117.5px;
-    }
-
-    .luja1 {
-        width: 212px;
-        height: 34px;
-        margin: 272px 0 0 485px;
-    }
-
-    .final h3 {
-        font-size: 15px;
-    }
-    
-    .final p {
-        font-size: 11px;
-    }
-
-    .final {
-        width: 800px;
-        margin-bottom: 100px;
-    }
-
-    .blocks1 {
-        margin: 20px 0 0 85px;
-    }
-
-    .luja2 {
-        width: 109.5px;
-        height: 18.5px;
-        margin: 108px 0 0 15px;
-    }
+.schedule__info-block {
+    padding: 40px 0 0 124px;
+    color: #000000;
 }
 
-@media(max-width: 394px) {
-    .abswidth {
-        width: 394px;
-    }
+/* Десктоп Камо */
 
-    .pheader {
-        margin: 1px 0 3px 1.5px;
-    }
-    .Nmain {    
-        width: 394px;
-    }
-    
-    .firstlogo {
-        width: 52px;
-        height:31px;
-    }
-
-    .blocks img {
-        width: 10.25px;
-        height: 10.25px;
-    }
-
-    .blocks p {
-        font-size: 10px;;
-    }
-
-    .kaksmotret h1 {
-        font-size: 37px;
-    }
-
-    .kaksmotret p {
-        font-size: 10px;
-    }
-
-    .kaksmotret {
-        display: flex;
-        flex-direction: column;   
-    }
-
-    .kaksmotret img {
-        width: 141.5px;
-        height: 166px;
-        margin: 0 0 0 175px;
-    }
-
-    .kaksmotret-text {
-        width: 250px;
-    }
-
-    .bluetable {
-        width: 225.3px;
-        height: 93.2px;
-        margin: 35px 0 100px 10px;
-        font-size: 11px;
-        line-height: 12px;
-        padding: 7px 6px 3px 11px;
-    }
-
-    .bluetable p {
-        font-size: 11px;
-    }
-
-    .luja {
-        width: 127.7px;
-        height: 19px;
-        margin: 290px 0 0 194px;
-    }
-
-    .Okurse {
-        display: block;
-        margin-bottom: 50px;
-    }
-
-    .Okurse h2 {
-        font-size: 26px;
-    }
-
-    .Okurse p {
-        font-size: 12px;
-        width: 310px;
-    }
-
-    .clear {
-        display: none;
-    }
-
-    .Okurse img {
-        width: 146.3px;
-        height: 146.8px;
-        margin: 0 0 0 80px ;
-    }
-
-    .luja1 {
-        width: 170.5px;
-        height: 27.5px;
-        margin: -18px 0 0 63px;
-    }
-
-    .final img {
-        width: 108px;
-        height: 94.6px;
-    }
-
-    .pictr {
-        margin: 58px 0 0 196px;
-        position: absolute;
-    }
-
-    .final h3 {
-        font-size: 12px;
-    }
-    
-    .final p {
-        font-size: 10px;
-    }
-
-    .final {
-        width: 394px;
-        margin-bottom: 50px;
-    }
-
-    .blocks1 {
-        margin: 0;
-        width: 120px;
-    }
-
-    .final-mobile {
-        display: flex;
-        flex-wrap: wrap;
-        width: 280px;
-    }
-
-    .margfinal {
-        padding-left: 5px;
-        width: 105px;
-    }
-
-    .luja2 {
-        width: 109.5px;
-        height: 18.5px;
-        margin: 142px 0 0 199px;
-    }
+.lessonFormat {
+    width: 88%;
+    margin: 0 auto 180px auto;
 }
 
-.Kmain {
-    width: 1440px;
-    margin: 1.5% auto auto 8%;
+.lessonFormat h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-weight: 800;
+    margin:0 0 89px 0;
 }
 
-/*Курс прошло уже 1616 человек*/
-.Kform1 {
-    font-size: 52px;
-    width: 667px;
-    height: 93px;
-    font-weight: 700;
-}
-
-.kkontainer {
+.lessonFormat__info {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 210px;
 }
 
-.kkontainer h2 {
+.lessonFormat__info h2 {
     font-size: 25px;
     color: #1E4681;
-    font-weight: 700;
-    font-size: 25px;
-}
-
-.kkontainer p {
-    width: 271px;
-    height: 109px;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.kkontainer div {
-    margin-right: 122px;
-}
-
-.Kform2 {
-    font-size: 52px;
-    width: 667px;
-    height: 93px;
-    font-weight: 700;
-}
-
-.kelement {
-    font-size: 24px;
-    width: 662px;
-    height: 380px;
-    font-weight: 400;
-}
-
-.kjedai {
-    width: 274px;
-    height: 160px;   
-}
-
-.ksamuray {
-    position: relative;
+    font-weight: 800;
     margin: 0;
 }
 
-.kdino {
-    width: 312px;
-    height: 180px;
-    margin-top: 89px;
-    margin-bottom: 0;
+.lessonFormat__info p {
+    width: 259px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 15px;
 }
 
-.Kimages {
-    display: block;
-    margin-left: 100px ;
+.lessonFormat__block {
+    margin-right: 122px;
 }
 
-.Ksecondblock {
+.whatDoWeLearn {
+    width: 88%;
+    margin: 0 auto 220px auto;
     display: flex;
 }
 
-.luja3 {
-    position: absolute;
+.whatDoWeLearn__TitleAndList {
+    width: 55%;
+}
+
+.whatDoWeLearn__TitleAndList h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.whatDoWeLearn__TitleAndList ul {
+    padding-top: 65px;    
+}
+
+.whatDoWeLearn__TitleAndList li {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.whatDoWeLearn__pictures {
+    padding-left: 85px;
+}
+
+.whatDoWeLearn__firstPicture {
+    position: relative;
+    bottom: 70px;
+}
+
+.whatDoWeLearn__firstPicture img {
+    width: 274px;
+    height: 160px;
+}
+
+.whatDoWeLearn__firstPicture div {
+    position: relative;
     background-color: #EFEFEF;
     width: 122px;
     height: 18px;
     border-radius: 100%;
-    margin: 155px 0 0 6px;
     z-index: -1;
 }
 
-.luja4 {
-    position: absolute;
-    background-color: #EFEFEF;
-    width: 122px;
-    height: 18px;
-    border-radius: 100%;
-    margin: 153px 0 0 163px;
-    z-index: -1;
+.whatDoWeLearn__firstPuddle {
+    bottom: 12px;
+    left: 7px;
 }
 
-.luja5 {
+.whatDoWeLearn__secondPuddle {
+    bottom: 32px;
+    left: 165px;
+}
+
+.whatDoWeLearn__secondPicture {
+    padding-top: 40px;
+}
+
+.whatDoWeLearn__secondPicture img {
+    width: 312px;
+    height: 180px;
+}
+
+.whatDoWeLearn__dinosFoundation {
     position: absolute;
     background-color: #BAC99F;
     width: 386px;
@@ -536,476 +323,1581 @@ body {
     z-index: -1;
 }
 
-.Lmain {
-    width: 1440px;
-    margin: 0 auto auto 8%;
+/* ДЕСКТОП GERMANA */
+
+.courseProgramm {
+    width: 96%;
+    margin: 0 auto;
 }
 
-.Lmain-course-passed {
-    background-color: #EFEFEF;
-    height: 780px;
-    margin-bottom: 0;
-}
-
-.Lmain-course-passed-header {
-    font-size: 55px;
-    padding-top: 91px;
-    padding-left: 122px; 
-    margin-top: 50px;
-}
-
-.Lmain-cloud {
-    width: 791px;
-    height: 451px;
-    background-color: white;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    margin-left: 122px;
-} 
-
-.Lmain-cloud p {
-    padding-top: 40px;
-    padding-left: 45px;
-    padding-right: 46px;
-    font-size: 20px;
-}
-
-.Lmain-extra {
-    display: flex;
-}
-
-.Lmain-extra-avatar img {
-    width: 190 px;
-    height: 169px;
-    margin-left: 45px;
-    
-}
-
-.Lmain-author img {
-    width: 32px;
-    height: 31px;
-   margin-left: 40px;
-}
-
-.Lmain-author p {
-    font-size: 30px;
-    font-weight: bold;    
-}
-
-
-/*Начало курса — 8 сентября*/
-
-.Lmain-course-start {
-    height: 780px;
-    background: #9DC9C8;
-    padding-top: 20px;
-}
-
-.Lmain-text-extra {
-    display: flex;
-    margin-left: 122px;
-}
-
-.Lmain-course-start h2 {
-    font-size: 55px;
-    font-weight: bold;
-}
-
-.Lmain-course-header {
-    padding-left: 122px;
-}
-
-.course-start-text {
-    font-size: 25px;
-    margin-left: 122px;
-    margin-bottom: 0;
-}
-
-.course-start-text1 {
-    font-size: 25px;
-}
-
-.course-start-text2 {
-    font-size: 18px;
-}
-
-.Lmain-cost {
-    font-size: 80px;
-    padding-left: 122px;
-    margin-top: 0;
-}
-
-.any-type {
-    width: 294px;
-    height: 115px;
-    margin-right: 60px;
-}
-
-.come-now {
-    width: 294px;
-    height: 115px;    
-}
-
-footer {
-    background-color: black;
-    height: 390px;
-    font-size: 25px;
-    display: flex;
-    color: white;
-    margin: 0 auto auto 8%;
-    width: 1440px;
-}
-
-.footer-logo img {
-    width: 115px;
-    height: 68px;
-    margin-top: 50px;
-    margin-left: 122px;
-    margin-bottom: 30px;
-    margin-right: 656px;
-}
-
-.footer-social-items {
-    margin-left: 122px;
-    
-}
-
-.insta {
-    width: 33px;
-    height: 33px;
-    margin-left: 122px;
-    margin-right: 18px;
-}
-
-.fb {
-    width: 32px;
-    height: 32px;
-    margin-right: 21px;
-}
-
-.vk {
-    width: 35px;
-    height: 35px;
-    margin-right: 25px;;
-}
-
-.wa {
-    width: 34px;
-    height: 34px;
-}
-
-.footer-extra {
-    font-size: 18px;
-    margin-left: 122px;
-    margin-top: 146px;
-}
-
-/*Footer.footer-contacts*/
-
-.footer-phone img {
-    width: 27px;
-    height: 27px;
-    margin-right: 22px;
-}
-
-.footer-mail img {
-    width: 27px;
-    height: 18px;
-    margin-right: 22px;
-}
-
-.footer-contacts {
-    margin-top: 50px;
-}
-
-.footer-phone {
-    display: flex;
-    align-items: center;
-}
-
-.footer-mail {
-    display: flex;
-    align-items: center;
-}
-
-/* CSS GERMANA */
-
-.Gmain {
-    width: 1440px;
-    margin: 1.5% auto auto 8%;
-}
-
-.Gmain h2 {
-    left: 56px;
-    font-size: 55px;
-    width: 1440px;
+.courseProgramm__title { 
+    margin: 0 auto 100px auto;
     display:  flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.Gmain img {
+.courseProgramm__title h2 {
+    font-family: 'Roboto Slab', serif;
+    margin:0;
+    font-size: 55px;
+    font-weight: 800;
+    padding-left: 60px;
+}
+
+.courseProgramm__blackline {
+    width: 630px;
+    height: 14px;
+    background-color: black;
+}
+
+.courseProgramm img {
     width: 399px;
     height: 160px;
     border-radius: 30px 30px 0px 0px;
 }
 
-.blackline {
-    width: 630px;
-    height: 14px;
-    background-color: black;
-    margin: 28px 25px 0 0;
-}
-
-.how-creat-movies {
-    margin-right: 37px;
-    width: 399px;
-    height: 328px;
-    border-radius: 30px;
-    background-color: #FFFFFF;
-    box-shadow: 1px 1px 15px;
+.courseProgramm__sections {
+    display: flex;
+    justify-content: flex-start;
+    padding: 35px 0 0 25px;    
 }
 
 .text-info {
-    padding-left: 10px;
+    padding-left: 20px;
+    font-size: 25px;
+    margin: 0;
 }
 
-.view-drama {
+.text-info p {
+    margin: 0;    
+}
+
+
+.courseProgramm__sections h3 {
+    font-size: 30px;
+    padding: 10px 0 7px 0;
+    margin: 0 0 25px 0;
+}
+
+.courseProgramm__programm-block {
     margin-right: 37px;
     width: 399px;
     height: 328px;
     border-radius: 30px;
     background-color: #FFFFFF;
-    box-shadow: 1px 1px 15px;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
 }
 
-.view-producer {
-        margin-left: px;
-        width: 399px;
-        height: 328px;
-        border-radius: 30px;
-        background-color: #FFFFFF;
-        box-shadow: 1px 1px 15px;
+.courseProgramm__lastBlock h3 {
+    margin: 0;
 }
 
-.section1 {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: -37px;
+.last-block {
+    margin: 0;
 }
 
-.section2 {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 35px;
-    margin-left: -37px;
-}
-
-.view-editor {
-    width: 399px;
-    height: 328px;
-    border-radius: 30px;
-    background-color: #FFFFFF;
-    box-shadow: 1px 1px 15px;
-    margin-right: 37px;
-}
-
-.generes-in-movie {
-        width: 399px;
-        height: 328px;
-        border-radius: 30px;
-        background-color: #FFFFFF;
-        box-shadow: 1px 1px 15px;
-        margin-right: 37px;
-}
-
-.lang-in-movie {
-    width: 399px;
-    height: 328px;
-    border-radius: 30px;
-    background-color: #FFFFFF;
-    box-shadow: 1px 1px 15px;
-}
-
-.view-critic {
-    width: 399px;
-    height: 328px;
-    border-radius: 30px;
-    background-color: #FFFFFF;
-    box-shadow: 1px 1px 15px;
-    margin-right: 37px;
-}
-
-.viewer {
-    width: 399px;
-    height: 328px;
-    border-radius: 30px;
-    background-color: #FFFFFF;
-    box-shadow: 1px 1px 15px;
-}
-
-.section3 {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 35px;
-    margin-left: -37px;
-}
-
-.man-computer img {
+.courseProgramm__man-computer img {
     width: 253px;
     height: 199px;
     position: absolute;
-    margin: 245px 0 0 160px;
+    margin: 245px 0 0 110px;
 }
 
-.Gfooter-block {
-    margin-top: 200px;
-    display: flex;
-}
-
-.autors-of-course {
-    width: 500px;
-}
-
-.about-author1 {
-    width: 399px;
-    height: 379px;
-    border-radius: 30px;
-    background-color: #ffffff;
-    box-shadow: 1px 1px 20px;
-    font-size: 18px;
-    margin-left: 175px;
-}
-
-.about-author1 p {
-    padding: 24px;
-}
-
-.photo-author-course1 {
-    display: flex;
-    flex-direction: row;
+.man-computer-puddle {
     position: relative;
-    bottom: 300px;
-    left: 166px;
+    background-color: #EFEFEF;
+    width: 232px;
+    height: 32px;
+    border-radius: 100%;
+    z-index: -1;
+    top: 430px;
+    left: 90px;
 }
 
-.photo-author-course1 h4 {
-    font-size: 30px;
-    margin-bottom: 0px;
+.autors-title {
+    font-size: 55px;
+    display:  flex;
+    justify-content: space-between;
+    margin:0 0 50px 0;
+    padding: 315px 0 0 100px;
 }
 
-.DKuznecov1 {
+.autors {
+    width: 88%;
     display: flex;
-    margin-left: 35px;
+    justify-content: space-evenly;  
+    margin: 0 auto;  
+}
+
+.autors__firstAutor {
+    display: flex;
+    width: 46%;
+}
+
+.autors__secondAutor {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    padding-top: 125px;
+    height: 200px;
 }
 
 
-.DKuznecov1 img {
+.autors__picture img {
     width: 189px;
     height: 178px;
 }
 
-.DKuznecov1 h4 {
+.autors__nameAndText {
+    padding-top: 40px;
+    height: 60px;
+}
+
+.autors__name {
+    font-weight: 800;
     font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 0;
+    margin:0;
 }
 
-.DKuznecov1 p {
+.autors__text {
+    position: absolute;
     font-size: 18px;
-    margin-top: 9px;
+    margin: 0;
+    width: 350px;
+    padding-top: 10px;
 }
 
-.DKuznecov2 {
-    display: flex;
+.autors__buttonAndTextBlock {
+    width: 28px;
 }
 
-.DKuznecov2 img {
-    width: 180px;
-    height: 166px;
-}
-
-.DKuznecov2 h4 {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 0;
-}
-
-.DKuznecov2 p {
+.autors__button {
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    border: 1px solid white;
+    border-radius: 100px;
     font-size: 18px;
-    margin-top: 9px;
-}
-
-.footblock1 {
-    margin-top: 324px;
-}
-
-.footblock2 {
-    margin: -65px 0 0 87px;
-}
-
-.photo-author-course1 p {
-    font-size: 18px;
-    margin-top: 4px;
-}
-
-.about-author2 {
-    width: 353px;
-    height: 226px;
-    border-radius: 30px;
-    background-color: #FFFFFF;
-    box-shadow: 1px 1px 20px;
-    padding: 24px;
-    font-size: 18px;
-    margin-left: 215px;
-}
-
-.photo-author-course2 {
-    display: flex;
-    flex-direction: row;
-    left: 800px;
-    bottom: 600px;
-    width: 600px;
-}
-
-.photo-author-course2 p {
-    font-size: 18px;
-    margin-top: 4px;
-}
-
-.photo-author-course2 img {
-    width: 180px;
-    height: 166px;
-}
-
-.photo-author-course2 h4 {
-    font-size: 30px;
-    margin-bottom: 7px;
-    width: 1440px;
-    margin: 1.5% auto 0 auto;
-}
-
-.first-button {
-    width: 39px;
-    height: 37px;
-    border-radius: 22px;
-    font-size: 25px;
-    background-color: #ffffff;
-}
-
-.second-button {
-    width: 39px;
-    height: 37px;
-    border-radius: 22px;
-    font-size: 25px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 8px #5784C8;
+    margin: 0;
     position: relative;
-    left: 1249px;
-    bottom: 292px;
+    top: 40px;
+    left: 15px;
 }
 
-.first-button:hover .about-author2 {
+.autors__textBlock1 {
+    width: 399px;
+    position: relative;
+    display: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    padding: 17px 18px 24px 20px;
+    box-sizing: border-box;
+    top: 130px;
+    right: 280px;
+    margin-bottom: 170px;
+}
+
+.autors__textBlock2 {
+    width: 399px;
+    position: relative;
+    display: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    padding: 18px 21px 24px 25px;
+    box-sizing: border-box;
+    bottom: 420px;
+    right: 255px;
+}
+
+.autors__button:hover + .autors__textBlock1 {
     display: block;
 }
 
-.second-button:hover .about-author1 {
+.autors__button:hover + .autors__textBlock2 {
     display: block;
+}
+
+/*Курс прошло уже 1616 человек*/
+
+.coursePassed {    
+    width: 100%;
+    margin: 0 auto;
+    background-color: #EFEFEF;
+    padding-bottom: 111px;
+}
+
+.coursePassed__header {
+    font-size: 55px;
+    padding: 91px 0 0 126px;
+    margin: 0 0 35px 0;
+}
+
+.coursePassed__palehova {
+    position: relative;
+    width: 791px;
+    height: 451px;
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    left: 126px;    
+} 
+
+.coursePassed__palehovaText {
+    padding: 40px 46px 0 45px;
+    font-size: 20px;
+    line-height:30px;
+}
+
+.coursePassed__palehovaAdd {
+    display: flex;
+}
+
+.coursePassed__circleAvatar {
+    width: 190 px;
+    height: 169px;
+    padding-left: 28px;    
+}
+
+.coursePassed__name {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left:30px;    
+}
+
+.coursePassed__facebook {
+    width: 32px;
+    height: 31px;
+    padding-left: 30px;
+}
+
+/*Начало курса — 8 сентября*/
+
+.courseStart {
+    width:100%;
+    margin: 0 auto;
+    background: #9DC9C8;
+}
+
+.courseStart__header {
+    font-size: 55px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 101.38%;
+    padding: 179px 0 0 122px;
+    margin: 0 0 54px 0;
+}
+
+.courseStart__cost {
+    font-size: 25px;
+    margin: 0;
+    padding-left: 122px;
+}
+
+.courseStart__costValue {
+    font-size: 80px;
+    margin: 0;
+    padding-left: 122px;
+    margin-bottom: 75px;
+}
+
+.courseStart__content {
+    display: flex;
+    padding-bottom: 185px;
+}
+
+.courseStart__contentTitle {
+    padding-right:70px;
+    width:21%;
+    padding-left: 122px;
+}
+
+.courseStart__contentSubtitle {
+    font-size: 25px;
+    margin: 0;    
+}
+
+.courseStart__contentText {
+    font-size: 18px;
+}
+
+/*Footer*/
+
+.footerInfo {
+    background-color: black;
+    height: 390px;
+    display: flex;
+    color: white;
+    width: 100%;
+}
+
+.footerInfo__image {
+    width:115px;
+    height:68px;
+    padding: 50px 0 0 122px;
+}
+
+.footerInfo__socials {
+    display:flex;
+    padding: 30px 0 0 122px;
+    margin-bottom: 146px;
+}
+
+.footerInfo__instagram {
+    width:33px;
+    height:33px;
+    padding-right:18px;
+}
+
+.footerInfo__facebook {
+    width:32px;
+    height:32px;
+    padding-right:21px;
+}
+
+.footerInfo__vkontakte {
+    width:35px;
+    height:35px;
+    padding-right:25px;
+}
+
+.footerInfo__whatsapp {
+    width:34px;
+    height:34px;
+    padding:0;
+}
+
+.footerInfo__synchronization {
+    font-size:18px;
+    display: block;
+    margin: 0;
+    padding-left: 122px;
+}
+
+.footerContacts {
+    padding:59px 0 0 656px;
+}
+
+.footerContacts__phone {
+    display: flex;
+    align-items: center;    
+}
+
+.footerContacts__phoneLogo {
+    width:27px;
+    height:27px;
+    padding: 0 22px 20px 0;
+}
+
+.footerContacts__phoneNumber {
+    font-size: 25px;
+    Line-height: 25px;
+    display: inline;
+    margin:0 0 20px 0;
+}
+
+.footerContacts__mail {
+    display: flex;
+    align-items: center;
+    
+}
+
+.footerContacts__mailLogo {
+    width:27px;
+    height:18px;
+    padding-right: 22px;
+}
+
+.footerContacts__mailAddress {
+    font-size: 25px; 
+    Line-height: 25px;
+    display: inline; 
+    margin:0;
+}
+
+.footerContacts__synchronization {
+    display: none;
+}
+
+/*Конец*/
+
+
+@media(max-width: 1279px) and (min-width: 992px) {
+
+    .mainContainer {
+        max-width: 834px;
+        min-width: 834px;
+    }
+
+    .synchronization-logo {
+        width: 64.87px;
+        height: 38.23px;
+    }
+
+    .head-info {
+        padding-top: 56px;
+    }
+
+    .head-info p {
+        font-size: 12px;
+        padding: 3px 0 0 8px;
+    }
+
+    .head-info__block {
+        padding-left: 14.5px;
+    }
+
+    .head-info__block img {
+        width: 12.74px;
+        height: 12.74px;
+    }
+
+    .howToWatch {
+        margin-bottom: 40px;
+    }
+
+    .howToWatch-text h1 {
+        font-size: 46px;
+        line-height: 46.64px;
+    }
+
+    .howToWatch-text p {
+        padding-top: 16px;
+        font-size: 12px;
+        width: 266px;
+    }
+
+    .howToWatch__picture {
+        padding-right: 100px;
+    }
+
+    .howToWatch__picture img {
+        width: 176px;
+        height: 206.18px;
+    }
+    
+    .howToWatch__puddle {
+        width: 158.7px;
+        height: 23.75px;
+        left: 20px;
+        bottom: 17px;
+    }
+
+    .bluetable {
+        width: 280px;
+        height: 115.83px;
+        padding: 12px 17px 10px 17px;
+        font-size: 14px;
+        right: 60px;
+        margin-bottom: 90px;
+    }
+
+    .bluetable p {
+        font-size: 12px;
+        padding: 10px 0 20px 0 ;
+        margin: 0;
+    }
+
+    .about-course {
+        margin-bottom: 70px;
+    }
+
+    .about-course h2 {
+        font-family: 'Roboto Slab', serif;
+        margin-bottom: 30px;
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    .about-course p {
+        font-size: 14px;
+        width: 82%;
+        line-height: 21px;
+    }
+
+    .about-course img {
+        position: relative;
+        width: 181.86px;
+        height: 182.44px;
+        padding: 98px 0 0 86.5px;  
+        margin-right: 0;  
+    }
+
+    .about-course__puddle {
+        position: relative;
+        background-color: #EFEFEF;
+        width: 212px;
+        height: 34.17px;
+        border-radius: 100%;
+        z-index: -1;
+        bottom: 22px;
+        left: 70px;
+    }
+
+    .man-with-tablet-logo img {
+        width: 134.37px;
+        height: 117.57px;  
+        margin-right: 15px;
+    }
+
+    .schedule__puddle {
+        width: 109.46px;
+        height: 18.53px;
+        bottom: 14px;
+        left: 20px;
+    }
+
+    .schedule {
+        margin-bottom: 100px;
+    }
+
+    .schedule h3 {
+        font-size: 15px;
+    }
+
+    .schedule p {
+        font-size: 11px;
+    }
+
+    .schedule__info-block {
+        padding: 20px 0 0 64px;
+    }
+
+    .lessonFormat {
+        margin-bottom: 90px;
+    }
+
+    .lessonFormat h1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 32px;
+        margin-bottom: 50px;
+        line-height: 32px;
+        font-weight: 800;
+    }
+
+    .lessonFormat__info h2 {
+        font-size: 15px;
+    }
+
+    .lessonFormat__info p {
+        width: 170px;
+        font-size: 11px;
+        padding-top: 6px;
+    }
+
+    .lessonFormat__block {
+        margin-right: 50px;
+    }
+
+    .whatDoWeLearn {
+        margin-bottom: 100px;
+    }
+
+    .whatDoWeLearn__TitleAndList {
+        width: 56%;
+    }
+
+    .whatDoWeLearn__TitleAndList h1 {
+        font-size: 32px;
+    }
+
+    .whatDoWeLearn__TitleAndList ul {
+        padding-top: 32px;
+        padding-left: 25px;
+    }
+    
+    .whatDoWeLearn__TitleAndList li {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    .whatDoWeLearn__pictures {
+        padding-left: 45px;
+    }
+
+    .whatDoWeLearn__firstPicture {
+        bottom: 34px;
+    }
+    
+    .whatDoWeLearn__firstPicture img {
+        width: 158.7px;
+        height: 92.7px;
+    }
+
+    .whatDoWeLearn__firstPicture div {
+        width: 70.66px;
+        height: 10.43px;
+    }
+    
+    .whatDoWeLearn__firstPuddle {
+        bottom: 9px;
+        left: 5px;
+    }
+
+    .whatDoWeLearn__secondPuddle {
+        bottom: 20px;
+        left: 95px;
+    }
+
+    .whatDoWeLearn__secondPicture {
+        padding-top: 68px;
+        padding-left: 15px;
+    }
+    
+    .whatDoWeLearn__secondPicture img {
+        width: 180.7px;
+        height: 104.25px;
+    }
+
+    .whatDoWeLearn__dinosFoundation {
+        width: 223.56px;
+        height: 5.21px;
+        margin: -4px 25px 40px -27px;
+    }
+    
+    .courseProgramm__title { 
+        margin-bottom: 55px;
+    }
+    
+    .courseProgramm__title h2 {
+        font-size: 32px;
+        padding-left: 40px;
+    }
+
+    .courseProgramm__blackline {
+        width: 364.88px;
+        height: 8.11px;
+    }
+
+    .courseProgramm img {
+        width: 231.1px;
+        height: 92.67px;
+        border-radius: 17.375px 17.375px 0px 0px;
+    }
+    
+    .courseProgramm__sections {
+        padding: 23.75px 0 0 21.43px;
+    }
+    
+    .text-info {
+        padding-left: 11px;
+        font-size: 14px;
+    }
+
+    .courseProgramm__sections h3 {
+        font-size: 17px;
+        padding: 6.37px 0 0 0;
+        margin: 0 0 15px 0;
+    }
+
+    .courseProgramm__lastBlock h3 {
+        margin-bottom: 3px;
+    }
+    
+    .courseProgramm__programm-block {
+        margin-right: 37px;
+        width: 231.1px;
+        height: 189.97px;
+        border-radius: 17.375px;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        box-sizing: border-box;
+    }
+
+    .courseProgramm__man-computer img {
+        width: 146.53px;
+        height: 115.25px;
+        position: absolute;
+        margin: 125px 0 0 65px;
+    }
+    
+    .man-computer-puddle {
+        width: 134.37px;
+        height: 18.53px;
+        top: 230px;
+        left: 53px;
+    }
+
+    .autors-title {
+        font-size: 32px;
+        margin-bottom: 26px;
+        padding: 155px 0 0 55px;
+    }
+
+    .autors__firstAutor {
+        padding-left: 30px;
+    }
+
+    .autors__secondAutor {
+        padding-top: 70px;
+        height: 130px;
+    }
+
+    .autors__picture img {
+        width: 109.46px;
+        height: 103.9px;
+    }
+    
+    .autors__nameAndText {
+        padding-top: 28px;
+        padding-left: 5px;
+        height: 45px;
+    }
+    
+    .autors__name {
+        font-size: 17px;
+    }
+
+    .autors__text {
+        font-size: 10px;
+        width: 198px;
+        padding-top: 7px;
+    }
+    
+    .autors__buttonAndTextBlock {
+        width: 16.22px;
+    }
+
+    .autors__button {
+        text-align: center;
+        width: 16.22px;
+        height: 16.22px;
+        font-size: 10.43px;
+        top: 32px;
+        left: 5px;
+    }
+
+    .autors__textBlock1 {
+        width: 231.1px;
+        border-radius: 17.375px;
+        font-size: 10px;
+        padding: 18px 12px 10px 14.5px;
+        top: 75px;
+        right: 160px;
+        margin-bottom: 110px;
+    }
+    
+    .autors__textBlock2 {
+        width: 231.1px;
+        position: relative;
+        display: none;
+        border-radius: 17.375px;
+        font-size: 10px;
+        padding: 18px 12px 10px 14.5px;
+        bottom: 230px;
+        right: 140px;
+    }
+
+    /*Курс прошло уже 1616 человек media под планшет*/
+
+    .coursePassed {    
+        width: 100%;
+        margin: 0 auto;
+        background-color: #EFEFEF;
+        padding-bottom: 64.29px;
+    }
+
+    .coursePassed__header {
+        font-size: 32px;
+        padding: 52.7px 0 0 70.66px;
+        margin: 0 0 35px 0;
+    }
+
+    .coursePassed__palehova {
+        position: relative;
+        width: 458.12px;
+        height: 261.2px;
+        background-color: white;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        left: 72.97px;    
+    } 
+
+    .coursePassed__palehovaText {
+        padding: 23.17px 26.64px 0 26.06px;
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .coursePassed__palehovaAdd {
+        display: flex;
+    }
+
+    .coursePassed__circleAvatar {
+        width: 110.04px;
+        height: 97.88px;
+        padding-left: 15.06px;    
+    }
+
+    .coursePassed__name {
+        font-size: 17px;
+        font-weight: bold;
+        padding-left:17.38px;    
+    }
+
+    .coursePassed__facebook {
+        width: 18.53px;
+        height: 17.95px;
+        padding-left:17.38px;
+    }
+
+    /*Начало курса — 8 сентября media под планшет*/
+
+    .courseStart {
+        width:100%;
+        margin: 0 auto;
+        background: #9DC9C8;
+    }
+
+    .courseStart__header {
+        font-size: 32px;
+        font-weight: bold;
+        font-style: normal;
+        line-height: 101.38%;
+        padding: 103.67px 0 0 70.66px;
+        margin: 0 0 31.27px 0;
+    }
+
+    .courseStart__cost {
+        font-size: 14px;
+        margin: 0;
+        padding-left: 70.66px;
+    }
+
+    .courseStart__costValue {
+        font-size: 46px;
+        margin: 0;
+        padding-left: 70.66px;
+        margin-bottom: 75px;
+    }
+
+    .courseStart__content {
+        display: flex;
+        padding-bottom: 107.15px;
+    }
+
+    .courseStart__contentTitle {
+        padding-right:20px;
+        width:21%;
+        padding-left: 70.66px;
+    }
+
+    .courseStart__contentSubtitle {
+        font-size: 14px;
+        margin: 0;    
+    }
+
+    .courseStart__contentText {
+        font-size: 10px;
+    }
+
+    /*Footer media под планшет*/
+
+    .footerInfo {
+        background-color: black;
+        height: 225.88px;
+        display: flex;
+        color: white;
+        width: 100%;
+    }
+
+    .footerInfo__image {
+        width:66.6px;
+        height:39.38px;
+        padding: 28.96px 0 0 70.66px;
+    }
+
+    .footerInfo__socials {
+        display:flex;
+        padding: 17.38px 0 0 70.66px;
+        margin-bottom: 84.56px;
+    }
+
+    .footerInfo__instagram {
+        width:19.11px;
+        height:19.11px;
+        padding-right:10.43px;
+    }
+
+    .footerInfo__facebook {
+        width:18.53px;
+        height:18.53px;
+        padding-right:12.16px;
+    }
+
+    .footerInfo__vkontakte {
+        width:20.27px;
+        height:20.27px;
+        padding-right:14.48px;
+    }
+
+    .footerInfo__whatsapp {
+        width:19.69px;
+        height:19.69px;
+        padding:0;
+    }
+
+    .footerInfo__synchronization {
+        font-size:10px;
+        display: block;
+        margin: 0;
+        padding-left: 70.66px;
+    }
+
+    .footerContacts {
+        padding:34.17px 0 0 379.93px;
+    }
+
+    .footerContacts__phone {
+        display: flex;
+        align-items: center;    
+    }
+
+    .footerContacts__phoneLogo {
+        width:15.64px;
+        height:15.64px;
+        padding: 0 12.74px 10px 0;
+    }
+
+    .footerContacts__phoneNumber {
+        font-size: 14px;
+        Line-height: 14px;
+        display: inline;
+        margin:0 0 10px 0;
+    }
+
+    .footerContacts__mail {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .footerContacts__mailLogo {
+        width:15.64px;
+        height:10.43px;
+        padding-right:12.74px;
+    }
+
+    .footerContacts__mailAddress {
+        font-size: 14px; 
+        Line-height: 14px;
+        display: inline; 
+        margin:0;
+    }
+
+    .footerContacts__synchronization {
+        display: none;
+    }
+
+    /*Конец media под планшет*/
+
+}
+
+@media(max-width: 992px) {
+    .mainContainer {
+        max-width: 394px;
+        min-width: 0px;
+    }
+
+    .synchronization-logo {
+        width: 52.19px;
+        height: 30.75px;
+    }
+
+    .howToWatch {
+        display: block;
+    }
+
+    .head-info {
+        padding-top: 35px;  
+    }
+
+    .head-info p {
+        font-size: 10px;
+        padding: 2px 0 0 5px;
+    }
+
+    .head-info__block {
+        padding-left: 14.5px;
+    }
+
+    .head-info__block img {
+        width: 12.74px;
+        height: 12.74px;
+    }
+
+    .howToWatch {
+        margin-bottom: 40px;
+    }
+
+    .howToWatch-text h1 {
+        font-size: 37px;
+        line-height: 37.51px;
+    }
+
+    .howToWatch-text p {
+        padding-top: 16px;
+        font-size: 10px;
+        width: 266px;
+    }
+
+    .howToWatch__picture {
+        padding-left: 170px;
+        margin: 0;
+    }
+
+    .howToWatch__picture img {
+        width: 141.66px;
+        height: 165.89px;
+    }
+    
+    .howToWatch__puddle {
+        width: 127.68px;
+        height: 19.1px;
+        left: 17px;
+        bottom: 14px;
+    }
+
+    .bluetable {
+        width: 225.36px;
+        height: 93.19px;
+        padding: 10px 10px 8px 12px;
+        font-size: 11px;
+        margin-bottom: 67px;
+        right: 55px;
+    }
+
+    .bluetable p {
+        font-size: 10px;
+        padding: 10px 0 20px 0 ;
+        margin: 0;
+        line-height: 13px;
+    }
+
+    .about-course {
+        display: block;
+        margin-bottom: 45px;
+    }
+
+    .about-course h2 {
+        margin-bottom: 10px;
+        font-size: 26px;
+        line-height: 26.36px;
+    }
+
+    .about-course p {
+        font-size: 12px;
+        width: 88%;
+        line-height: 18px;
+    }
+
+    .about-course img {
+        position: relative;
+        width: 146.32px;
+        height: 146.78px;
+        padding: 15px 0 0 70px;  
+        margin-right: 0;  
+    }
+
+    .about-course__puddle {
+        width: 170.55px;
+        height: 27.49px;
+        bottom: 20px;
+        left: 55px;
+    }
+
+    .man-with-tablet-logo {
+        position: relative;
+        top: 40px;
+        right: 57px;
+    }
+
+    .man-with-tablet-logo img {
+        width: 108.11px;
+        height: 94.59px;  
+        margin: 0;
+    }
+
+    .schedule__puddle {
+        width: 88.07px;
+        height: 14.91px;
+        bottom: 13px;
+        left: 17px;
+    }
+
+    .schedule {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 70px;
+    }
+
+    .schedule__info {
+        flex-wrap: wrap;
+        width: 85%;
+    }
+
+    .schedule h3 {
+        font-size: 12px;
+        line-height: 15.6px;
+        margin: 0;
+    }
+
+    .schedule p {
+        padding-top: 6px;
+        font-size: 10px;
+        line-height: 13px;
+        margin: 0;
+    }
+
+    .schedule__info-block {
+        padding: 0;
+        margin-right: 40px;
+    }
+
+    .schedule__info-block:last-child {
+        padding-top: 30px;
+    }
+
+    .lessonFormat {
+        margin-bottom: 73px;
+    }
+
+    .lessonFormat__info {
+        display: block;
+    }
+
+    .lessonFormat h1 {
+        font-size: 26px;
+        margin-bottom: 15px;
+        line-height: 26.36px;
+    }
+
+    .lessonFormat__info h2 {
+        font-size: 12px;
+        line-height: 15.6px;
+    }
+
+    .lessonFormat__info p {
+        width: 170px;
+        font-size: 10px;
+        padding-top: 4px;
+    }
+
+    .lessonFormat__block {
+        margin: 0;
+        padding-top: 15px;
+    }
+
+    .whatDoWeLearn {
+        margin-bottom: 55px;
+        display: block;
+    }
+
+    .whatDoWeLearn__TitleAndList {
+        width: 100%;
+    }
+
+    .whatDoWeLearn__TitleAndList h1 {
+        font-size: 32px;
+    }
+
+    .whatDoWeLearn__TitleAndList ul {
+        padding-top: 32px;
+        padding-left: 15px;
+    }
+    
+    .whatDoWeLearn__TitleAndList li {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    .whatDoWeLearn__pictures {
+        padding-left: 45px;
+        height: 100px;
+    }
+
+    .whatDoWeLearn__firstPicture {
+        bottom: 440px;
+        left: 120px;
+    }
+    
+    .whatDoWeLearn__firstPicture img {
+        width: 127.68px;
+        height: 74.56px;
+    }
+
+    .whatDoWeLearn__firstPicture div {
+        width: 56.85px;
+        height: 8.39px;
+    }
+    
+    .whatDoWeLearn__firstPuddle {
+        bottom: 9px;
+        left: 5px;
+    }
+
+    .whatDoWeLearn__secondPuddle {
+        bottom: 17px;
+        left: 77px;
+    }
+
+    .whatDoWeLearn__secondPicture {
+        position: relative;
+        padding: 0;
+        bottom: 90px;
+        left: 60px;        
+    }
+    
+    .whatDoWeLearn__secondPicture img {
+        width: 145.38px;
+        height: 83.88px;
+    }
+
+    .whatDoWeLearn__dinosFoundation {
+        width: 179.87px;
+        height: 4.19px;
+        margin: -4px 15px 0 -17px;
+    }
+    
+    .courseProgramm__title { 
+        margin-bottom: 35px;
+    }
+    
+    .courseProgramm__title h2 {
+        font-size: 26px;
+        padding-left: 0;
+    }
+
+    .courseProgramm__blackline {
+        width: 85px;
+        height: 6.52px;
+    }
+
+    .courseProgramm img {
+        width: 185.92px;
+        height: 74.56px;
+        border-radius: 13.9792px 13.9792px 0px 0px;
+    }
+    
+    .courseProgramm__sections {
+        display: block;
+        padding: 0 0 0 0;
+    }
+    
+    .text-info {
+        padding-left: 11px;
+        font-size: 12px;
+        line-height: 15.6px;
+    }
+
+    .courseProgramm__sections h3 {
+        font-size: 14px;
+        line-height: 18.2px;
+        padding: 5px 0 0 0;
+        margin-bottom: 7px;
+    }
+
+    .courseProgramm__lastBlock h3 {
+        margin-bottom: 0px;
+    }
+    
+    .courseProgramm__programm-block {
+        margin: 0 auto 25px auto;
+        width: 185.92px;
+        height: 152.84px;
+        border-radius: 13.9792px;
+    }
+
+    .courseProgramm__man-computer {
+        display: none;
+    }
+
+    .autors {
+        display: block;
+        margin: 0 auto 200px auto;
+    }
+
+    .autors-title {
+        font-size: 26px;
+        margin-bottom: 21px;
+        padding: 55px 0 0 30px;
+    }
+
+    .autors__firstAutor {
+        padding: 0;
+    }
+
+    .autors__secondAutor {
+        padding-top: 10px;
+        height: 130px;
+    }
+
+    .autors__picture img {
+        width: 88.07px;
+        height: 82.94px;
+    }
+    
+    .autors__nameAndText {
+        padding-top: 18px;
+        padding-left: 5px;
+        height: 45px;
+    }
+    
+    .autors__name {
+        font-size: 17px;
+        width: 160px;
+    }
+
+    .autors__text {
+        font-size: 10px;
+        width: 198px;
+        padding-top: 7px;
+    }
+    
+    .autors__buttonAndTextBlock {
+        width: 100%;
+    }
+
+    .autors__button {
+        display: none;
+    }
+
+    .autors__textBlock1 {
+        display: block;
+        width: 231.1px;
+        border-radius: 0;
+        font-size: 10px;
+        padding: 18px 12px 10px 14.5px;
+        top: 55px;
+        right: 173px;
+        box-shadow: none;
+        z-index: -1;
+    }
+    
+    .autors__textBlock2 {
+        width: 231.1px;
+        position: relative;
+        display: block;
+        border-radius: 0;
+        font-size: 10px;
+        padding: 18px 12px 10px 14.5px;
+        box-shadow: none;
+        right: 140px;
+        z-index: -1;
+        top: 65px;
+        right: 173px;
+    }
+
+    /*Курс прошло уже 1616 человек media под телефон*/
+
+    .coursePassed {    
+        width: 100%;
+        margin: 0 auto;
+        background-color: #EFEFEF;
+        padding-bottom: 53px;
+    }
+
+    .coursePassed__header {
+        font-size: 26px;
+        padding: 42px 0 0 36px;
+        margin: 0 0 11px 0;
+    }
+
+    .coursePassed__palehova {
+        position: relative;
+        width: 308px;
+        height: 248px;
+        background-color: white;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        left: 36px;    
+    } 
+
+    .coursePassed__palehovaText {
+        padding: 18.47px 21px 0 21px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .coursePassed__palehovaAdd {
+        display: flex;
+    }
+
+    .coursePassed__circleAvatar {
+        width: 80px;
+        height: 84px;
+        padding-left: 21px;    
+    }
+
+    .coursePassed__name {
+        font-size: 14px;
+        font-weight: bold;
+        padding-left:17.38px;    
+    }
+
+    .coursePassed__facebook {
+        width: 18.53px;
+        height: 17.95px;
+        padding-left:13.63px;
+    }
+
+    /*Начало курса — 8 сентября media под телефон*/
+
+    .courseStart {
+        width:100%;
+        margin: 0 auto;
+        background: #9DC9C8;
+    }
+
+    .courseStart__header {
+        font-size: 26px;
+        font-style: normal;
+        line-height: 101.38%;
+        padding: 62px 0 0 36px;
+        margin: 0 0 22.33px 0;
+        font-weight: 700;
+        width: 55%;
+    }
+
+    .courseStart__cost {
+        font-size: 12px;
+        margin: 0;
+        padding-left: 36px;
+    }
+
+    .courseStart__costValue {
+        font-size: 37px;
+        margin: 0;
+        padding-left: 36px;
+        margin-bottom: 72.33px;
+    }
+
+    .courseStart__content {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 63.46px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .courseStart__contentTitle {
+        width:46%;
+        padding: 0;
+    }
+
+    .courseStart__contentSubtitle {
+        font-size: 12px;
+        margin: 0;    
+    }
+
+    .courseStart__contentText {
+        font-size: 10px;
+    }
+
+    /*Footer media под телефон*/
+
+    .footerInfo {
+        background-color: black;
+        height: 251px;
+        display: block;
+        color: white;
+        width: 100%;
+    }
+
+    .footerInfo__image {
+        width:53.59px;
+        height:31.69px;
+        padding: 23.3px 0 0 36px;
+    }
+
+    .footerInfo__socials {
+        display:flex;
+        padding: 13.98px 0 0 36px;
+        margin-bottom: 20px;
+    }
+
+    .footerInfo__instagram {
+        width:15.38px;
+        height:15.38px;
+        padding-right:8.39px;
+    }
+
+    .footerInfo__facebook {
+        width:14.91px;
+        height:14.91px;
+        padding-right:9.78px;
+    }
+
+    .footerInfo__vkontakte {
+        width:16.31px;
+        height:16.31px;
+        padding-right:11.65px;
+    }
+
+    .footerInfo__whatsapp {
+        width:15.84px;
+        height:15.84px;
+        padding:0;
+    }
+
+    .footerInfo__synchronization {        
+        display: none;        
+    }
+
+    .footerContacts {
+        padding:15px 0 0 36px;
+    }
+
+    .footerContacts__phone {
+        display: flex;
+        align-items: center;    
+    }
+
+    .footerContacts__phoneLogo {
+        width:12.58px;
+        height:12.58px;
+        padding: 0 10.25px 10px 0;
+    }
+
+    .footerContacts__phoneNumber {
+        font-size: 12px;
+        Line-height: 12px;
+        display: inline;
+        margin:0;
+    }
+
+    .footerContacts__mail {
+        display: flex;
+        align-items: center; 
+        padding-bottom: 48.99px;       
+    }
+
+    .footerContacts__mailLogo {
+        width:12.58px;
+        height:8.39px;
+        padding-right:12.74px;
+    }
+
+    .footerContacts__mailAddress {
+        font-size: 12px; 
+        Line-height: 12px;
+        display: inline; 
+        margin:0;
+    }
+
+    .footerContacts__synchronization {
+        display: block;
+        position:relative;
+        bottom: 0;
+        left:0;
+        font-size:10px;      
+    }
+
+    /*Конец media под телефон*/
 }
