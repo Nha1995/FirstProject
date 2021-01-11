@@ -561,7 +561,7 @@ header {
 }
 
 .coursePassed__circleAvatar {
-    width: 190 px;
+    width: 190px;
     height: 169px;
     padding-left: 28px;    
 }
@@ -1156,8 +1156,9 @@ header {
     }
 
     .courseStart__header {
+        font-family: 'Roboto Slab', serif;
         font-size: 32px;
-        font-weight: bold;
+        font-weight: 700;
         font-style: normal;
         line-height: 101.38%;
         padding: 103.67px 0 0 70.66px;
