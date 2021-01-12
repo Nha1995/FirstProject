@@ -542,8 +542,8 @@ header {
 
 .coursePassed__palehova {
     position: relative;
-    width: 791px;
-    height: 451px;
+    width: 55%;
+    height: 45%;
     background-color: white;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -923,7 +923,7 @@ header {
     }
 
     .whatDoWeLearn__firstPicture {
-        bottom: 34px;
+        bottom: 34px;        
     }
     
     .whatDoWeLearn__firstPicture img {
@@ -1111,8 +1111,8 @@ header {
 
     .coursePassed__palehova {
         position: relative;
-        width: 458.12px;
-        height: 261.2px;
+        width: 55%;
+        height: 45%;
         background-color: white;
         box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
         border-radius: 17.375px;
@@ -1300,10 +1300,10 @@ header {
 
 }
 
-@media(max-width: 992px) {
+@media(max-width: 992px) and (min-width: 0) {
     .mainContainer {
         max-width: 394px;
-        min-width: 0px;
+        min-width: 340px;
     }
 
     .synchronization-logo {
@@ -1514,7 +1514,7 @@ header {
     }
     
     .whatDoWeLearn__TitleAndList li {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 21px;
     }
     
@@ -1526,6 +1526,8 @@ header {
     .whatDoWeLearn__firstPicture {
         bottom: 440px;
         left: 120px;
+        width: 130px;
+        display: inline-block;
     }
     
     .whatDoWeLearn__firstPicture img {
@@ -1536,23 +1538,24 @@ header {
     .whatDoWeLearn__firstPicture div {
         width: 56.85px;
         height: 8.39px;
+        display: inline-block;
     }
     
     .whatDoWeLearn__firstPuddle {
-        bottom: 9px;
+        bottom: 13px;
         left: 5px;
     }
 
     .whatDoWeLearn__secondPuddle {
-        bottom: 17px;
-        left: 77px;
+        bottom: 13px;
+        left: 15px;
     }
 
     .whatDoWeLearn__secondPicture {
         position: relative;
         padding: 0;
-        bottom: 90px;
-        left: 60px;        
+        bottom: 70px;
+        left: 30px;        
     }
     
     .whatDoWeLearn__secondPicture img {
@@ -1662,7 +1665,7 @@ header {
     }
     
     .autors__buttonAndTextBlock {
-        width: 100%;
+        width: 28px;
     }
 
     .autors__button {
@@ -1712,8 +1715,8 @@ header {
 
     .coursePassed__palehova {
         position: relative;
-        width: 308px;
-        height: 248px;
+        width: 75%;
+        height: 48%;
         background-color: white;
         box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
         border-radius: 13.9792px;
