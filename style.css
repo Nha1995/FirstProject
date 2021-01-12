@@ -208,6 +208,10 @@ header {
     color: #000000;
 }
 
+.margfinal {
+    padding-top: 0;
+}
+
 /* Десктоп Камо */
 
 .lessonFormat {
@@ -1457,13 +1461,15 @@ header {
     }
 
     .schedule__info-block {
-        padding: 0;
+        padding-left: 0;
         margin-right: 40px;
     }
 
     .schedule__info-block:last-child {
         padding-top: 30px;
     }
+
+
 
     .lessonFormat {
         margin-bottom: 73px;
