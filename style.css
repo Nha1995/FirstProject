@@ -208,10 +208,6 @@ header {
     color: #000000;
 }
 
-.margfinal {
-    padding-top: 0;
-}
-
 /* Десктоп Камо */
 
 .lessonFormat {
@@ -1387,7 +1383,7 @@ header {
 
     .about-course {
         display: block;
-        margin-bottom: 45px;
+        margin-bottom: 0;
     }
 
     .about-course h2 {
@@ -1419,7 +1415,7 @@ header {
 
     .man-with-tablet-logo {
         position: relative;
-        top: 40px;
+        top: 80px;
         right: 57px;
     }
 
@@ -1469,7 +1465,9 @@ header {
         padding-top: 30px;
     }
 
-
+    /* .margfinal {
+        padding-top: 0;
+    } */
 
     .lessonFormat {
         margin-bottom: 73px;
